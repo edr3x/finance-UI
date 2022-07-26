@@ -1,5 +1,6 @@
 import 'package:finance/presentation/homepage/widgets/balance_container.dart';
 import 'package:finance/presentation/homepage/widgets/tools_select.dart';
+import 'package:finance/presentation/profile/profile_page.dart';
 import 'package:finance/presentation/shared/custom_drawer.dart';
 import 'package:flutter/material.dart';
 
@@ -18,10 +19,14 @@ class HomePage extends StatelessWidget {
         backgroundColor: const Color(0xFF000000),
         actions: [
           IconButton(
-            onPressed: () {},
-            icon: const Icon(
-              Icons.person,
-              size: 30,
+            onPressed: () => Navigator.pushNamed(
+              context,
+              ProfilePage.routeName,
+            ),
+            icon: const CircleAvatar(
+              backgroundImage: NetworkImage(
+                "https://assets-global.website-files.com/5ec7dad2e6f6295a9e2a23dd/6222481c0ad8761618b18e7e_profile-picture.jpg",
+              ),
             ),
           ),
         ],

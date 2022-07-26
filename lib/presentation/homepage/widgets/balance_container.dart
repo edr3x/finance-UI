@@ -29,7 +29,7 @@ class BalanceContainer extends StatelessWidget {
                 height: 15,
               ),
               Text(
-                "\$27,530.50",
+                "\$69,420.69",
                 style: TextStyle(
                   fontSize: 38,
                   fontWeight: FontWeight.normal,
@@ -39,7 +39,7 @@ class BalanceContainer extends StatelessWidget {
           ),
           const Spacer(),
           const Text(
-            '15%',
+            '69%',
             style: TextStyle(fontSize: 20),
           ),
           const SizedBox(width: 8),

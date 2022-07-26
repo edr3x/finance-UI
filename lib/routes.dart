@@ -3,7 +3,7 @@ import 'package:finance/presentation/homepage/home_page.dart';
 import 'package:finance/presentation/profile/profile_page.dart';
 import 'package:flutter/material.dart';
 
-Route<dynamic> routeGenreate(RouteSettings settings) {
+Route<MaterialPageRoute> routeGenreate(RouteSettings settings) {
   switch (settings.name) {
     case HomePage.routeName:
       return MaterialPageRoute(

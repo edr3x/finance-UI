@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
-import 'package:syncfusion_flutter_charts/sparkcharts.dart';
 
 class CustomChart extends StatelessWidget {
   const CustomChart({Key? key}) : super(key: key);
@@ -15,11 +14,12 @@ class CustomChart extends StatelessWidget {
           LineSeries<SalesData, String>(
             // Bind data source
             dataSource: <SalesData>[
-              SalesData('Jan', 35),
-              SalesData('Feb', 28),
-              SalesData('Mar', 34),
-              SalesData('Apr', 32),
-              SalesData('May', 40)
+              SalesData('Jan', 48),
+              SalesData('Feb', 35),
+              SalesData('Mar', 55),
+              SalesData('Apr', 42),
+              SalesData('May', 69),
+              SalesData('Jun', 53)
             ],
             xValueMapper: (SalesData sales, _) => sales.year,
             yValueMapper: (SalesData sales, _) => sales.sales,

@@ -14,7 +14,7 @@ class MyDrawer extends StatelessWidget {
             const Divider(color: Colors.white),
             ListTile(
               onTap: () {},
-              title: const Text("Text"),
+              title: const Text("Home"),
               leading: const Icon(Icons.home),
             ),
             const Divider(color: Colors.white),
