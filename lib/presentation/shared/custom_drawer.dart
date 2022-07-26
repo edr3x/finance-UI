@@ -1,3 +1,4 @@
+import 'package:finance/presentation/cards/my_cards.dart';
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -16,6 +17,15 @@ class MyDrawer extends StatelessWidget {
               onTap: () {},
               title: const Text("Home"),
               leading: const Icon(Icons.home),
+            ),
+            const Divider(color: Colors.white),
+            ListTile(
+              onTap: () => Navigator.pushNamed(
+                context,
+                MyCards.routeName,
+              ),
+              title: const Text("Cards"),
+              leading: const Icon(Icons.credit_card),
             ),
             const Divider(color: Colors.white),
           ],

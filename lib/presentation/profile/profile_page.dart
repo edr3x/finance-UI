@@ -36,10 +36,13 @@ class ProfilePage extends StatelessWidget {
               ),
               const Padding(
                 padding: EdgeInsets.only(left: 15),
-                child: CircleAvatar(
-                  radius: 30,
-                  backgroundImage: NetworkImage(
-                    "https://assets-global.website-files.com/5ec7dad2e6f6295a9e2a23dd/6222481c0ad8761618b18e7e_profile-picture.jpg",
+                child: Hero(
+                  tag: 'profile-hero',
+                  child: CircleAvatar(
+                    radius: 30,
+                    backgroundImage: NetworkImage(
+                      "https://assets-global.website-files.com/5ec7dad2e6f6295a9e2a23dd/6222481c0ad8761618b18e7e_profile-picture.jpg",
+                    ),
                   ),
                 ),
               ),

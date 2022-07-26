@@ -23,9 +23,12 @@ class HomePage extends StatelessWidget {
               context,
               ProfilePage.routeName,
             ),
-            icon: const CircleAvatar(
-              backgroundImage: NetworkImage(
-                "https://assets-global.website-files.com/5ec7dad2e6f6295a9e2a23dd/6222481c0ad8761618b18e7e_profile-picture.jpg",
+            icon: const Hero(
+              tag: 'profile-hero',
+              child: CircleAvatar(
+                backgroundImage: NetworkImage(
+                  "https://assets-global.website-files.com/5ec7dad2e6f6295a9e2a23dd/6222481c0ad8761618b18e7e_profile-picture.jpg",
+                ),
               ),
             ),
           ),
@@ -94,7 +97,7 @@ class HomePage extends StatelessWidget {
                     color: const Color(0xFF262626),
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  child: const Text("This Week"),
+                  child: const Text("This Year"),
                 ),
               ],
             ),

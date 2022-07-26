@@ -4,11 +4,13 @@ class SentReceive extends StatelessWidget {
   final IconData icon;
   final String label;
   final Color iconColor;
+  final VoidCallback? onTap;
   const SentReceive({
     Key? key,
     required this.icon,
     required this.label,
     required this.iconColor,
+    this.onTap,
   }) : super(key: key);
 
   @override
