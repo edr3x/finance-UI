@@ -11,7 +11,7 @@ class ProfilePage extends StatelessWidget {
       backgroundColor: const Color(0xFF000000),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.only(top: 25, right: 20, left: 45),
+          padding: const EdgeInsets.only(top: 18, right: 20, left: 45),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -39,9 +39,9 @@ class ProfilePage extends StatelessWidget {
                 child: Hero(
                   tag: 'profile-hero',
                   child: CircleAvatar(
-                    radius: 30,
+                    radius: 40,
                     backgroundImage: NetworkImage(
-                      "https://assets-global.website-files.com/5ec7dad2e6f6295a9e2a23dd/6222481c0ad8761618b18e7e_profile-picture.jpg",
+                      "https://i.pinimg.com/originals/fa/cf/10/facf10980b28a60c9f755c59aba40d39.jpg",
                     ),
                   ),
                 ),

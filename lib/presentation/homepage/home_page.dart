@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
               tag: 'profile-hero',
               child: CircleAvatar(
                 backgroundImage: NetworkImage(
-                  "https://assets-global.website-files.com/5ec7dad2e6f6295a9e2a23dd/6222481c0ad8761618b18e7e_profile-picture.jpg",
+                  "https://i.pinimg.com/originals/fa/cf/10/facf10980b28a60c9f755c59aba40d39.jpg",
                 ),
               ),
             ),

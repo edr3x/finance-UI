@@ -23,7 +23,10 @@ class MyCards extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 IconButton(
-                  onPressed: () => Navigator.pop(context),
+                  onPressed: () {
+                    Navigator.pop(context);
+                    Navigator.pop(context);
+                  },
                   icon: const Icon(
                     Icons.chevron_left_sharp,
                     size: 40,
